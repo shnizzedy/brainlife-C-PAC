@@ -1,0 +1,1 @@
+https://github.com/opengovernment/opengovernment/blob/master/CONTRIBUTING.md
