@@ -4,10 +4,10 @@
 
 This section tells which versions of C-PAC are currently being supported with security updates.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 1.6.2   | :white_check_mark: |
-| < 1.6.2 | :x:                |
+| Version  | Supported          |
+| -------- | ------------------ |
+| ≥ 1.6.2a | :white_check_mark: |
+| < 1.6.2a | :x:                |
 
 ## Reporting a Vulnerability
 
