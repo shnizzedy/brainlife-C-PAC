@@ -10,4 +10,4 @@ bl2bids
 
 echo "running cpac"
 mkdir -p output
-time singularity exec --nv -e docker://fcpindi/c-pac:release-v1.6.2 bids output participant
+time singularity run -e docker://fcpindi/c-pac:release-v1.6.2 bids output participant
