@@ -1,0 +1,13 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=8,walltime=4:00:00
+#PBS -l vmem=30gb
+#PBS -N cpac
+
+set -x
+set -e
+
+bl2bids
+
+echo "running cpac"
+mkdir -p output
+time singularity exec --nv -e docker://fcpindi/c-pac:release-v1.6.2 bids output participant
