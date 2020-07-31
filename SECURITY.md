@@ -6,8 +6,8 @@ This section tells which versions of C-PAC are currently being supported with se
 
 | Version  | Supported          |
 | -------- | ------------------ |
-| ≥ 1.6.2a | :white_check_mark: |
-| < 1.6.2a | :x:                |
+| ≥ 1.5.0  | :white_check_mark: |
+| < 1.5.0  | :x:                |
 
 ## Reporting a Vulnerability
 
