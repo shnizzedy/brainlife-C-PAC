@@ -6,7 +6,7 @@ The first step is to look for **answers** by [searching](http://fcp-indi.github.
 
 ## Developers
 
-Please consult [CPAC's **developer documentation**](http://fcp-indi.github.io/docs/developer) and [**coding standard in contributing guide**](./CONTRIBUTING.md) for **specific guidelines** for various areas of **contribution**. Our code resides in the [FCP-INDI organization on :octocat: GitHub](https://github.com/FCP-INDI).
+Please consult [CPAC's **developer documentation**](http://fcp-indi.github.io/docs/developer) and [**contributing guide**](./CONTRIBUTING.md) for **specific guidelines** for various areas of **contribution**. Our code resides in the [FCP-INDI organization on :octocat: GitHub](https://github.com/FCP-INDI).
 
 ## Report a bug
 
