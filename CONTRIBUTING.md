@@ -1,4 +1,8 @@
-# Contributing: C-PAC Coding Standard
+# Contributing Guide 
+
+[C-PAC Contributor Guide](https://docs.google.com/document/d/1IqXM_iaQRxYkByyeXIub-suMZdLrg-103_jKShnK0X0/edit?usp=sharing)
+
+# C-PAC Coding Standard
 
 ## General Principles
 
