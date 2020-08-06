@@ -10,11 +10,11 @@ Please consult [CPAC's **developer documentation**](http://fcp-indi.github.io/do
 
 ## Report a bug
 
-Before reporting a bug, please search [**open issues**](https://github.com/search?q=org%3AFCP-INDI+is%3Aissue+is%3Aopen&type=Issues) and [**forum**](https://groups.google.com/forum/#!forum/cpax_forum) to see if your bug has already been reported. If so, use the **reaction picker** (![octicon-smiley](https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/smiley.svg?sanitize=true)) to **+1** (:+1:) and/or add to the **conversation**. Otherwise, please [open a new issue](https://github.com/FCP-INDI/C-PAC/issues/new) and fill out our [issue template](https://github.com/FCP-INDI/cpac_run_logs/blob/master/.github/ISSUE_TEMPLATE/c-pac-vx-x-x----short-name-label-.md) to **report** the bug.
+Before reporting a bug, please search [**open issues**](https://github.com/search?q=org%3AFCP-INDI+is%3Aissue+is%3Aopen&type=Issues) and [**forum**](https://groups.google.com/forum/#!forum/cpax_forum) to see if your bug has already been reported. If so, use the **reaction picker** (![octicon-smiley](https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/smiley.svg?sanitize=true)) to **+1** (:+1:) and/or add to the **conversation**. Otherwise, please [open a new issue](https://github.com/FCP-INDI/C-PAC/issues/new) and fill out [the issue template](.github/ISSUE_TEMPLATE/bug_report.md) to **report** the bug.
 
 ## Request a feature
 
-Before requesting a feature, please search [**open issues**](https://github.com/search?q=org%3AFCP-INDI+is%3Aissue+is%3Aopen&type=Issues) and [**forum**](https://groups.google.com/forum/#!forum/cpax_forum) to see if your feature has already been requested. If so, use the **reaction picker** (![octicon-smiley](https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/smiley.svg?sanitize=true)) to **+1** (:+1:) and/or add to the **conversation**. Otherwise, please [open a new issue](https://github.com/FCP-INDI/C-PAC/issues/new) to **request** the feature.
+Before requesting a feature, please search [**open issues**](https://github.com/search?q=org%3AFCP-INDI+is%3Aissue+is%3Aopen&type=Issues) and [**forum**](https://groups.google.com/forum/#!forum/cpax_forum) to see if your feature has already been requested. If so, use the **reaction picker** (![octicon-smiley](https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/svg/smiley.svg?sanitize=true)) to **+1** (:+1:) and/or add to the **conversation**. Otherwise, please [open a new issue](https://github.com/FCP-INDI/C-PAC/issues/new) and fill out [the feature request template](.github/ISSUE_TEMPLATE/feature_request.md) to **request** the feature.
 
 ## Community
 
