@@ -6,9 +6,13 @@
 set -x
 set -e
 
+echo "getting testing image"
+time curl -LOJ https://2627-4733263-gh.circle-artifacts.com/0/cpac-singularity-image.simg
+
+echo "restructuring data"
 bl2bids
 
 echo "running cpac"
 mkdir -p output tmp
-#time singularity run -e docker://fcpindi/c-pac:release-v1.6.2 bids output participant
-time singularity run -e -B `pwd`/tmp:/tmp shub://FCP-INDI/C-PAC bids output participant
+# time ./calcify
+time singularity run -e -B `pwd`/tmp:/tmp cpac-singularity-image.simg bids output participant
