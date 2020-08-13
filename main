@@ -7,12 +7,12 @@ set -x
 set -e
 
 echo "getting testing image"
-time curl -LOJ https://2627-4733263-gh.circle-artifacts.com/0/cpac-singularity-image.simg
+time curl -LOJ https://2630-4733263-gh.circle-artifacts.com/0/cpac-singularity-image.simg
 
 echo "restructuring data"
 bl2bids
 
 echo "running cpac"
 mkdir -p output tmp
-# time ./calcify
+time ./calcify
 time singularity run -e -B `pwd`/tmp:/tmp cpac-singularity-image.simg bids output participant
