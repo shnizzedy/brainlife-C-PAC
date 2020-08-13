@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+"""calcify
+
+This script finds symbolic links and converts them to hard links.
+This script is designed to avoid trying to access unbound local files
+from within a container.
+
+Without any arguments, calcify converts symbolic links in a
+subdirectory of the present directory called 'bids'. With a single
+commandline argument BIDS_DIR, calcify converts symbolic links in
+BIDS_DIR.
+
+Usage:
+./calcify [BIDS_DIR]
+"""
+import os
+
+from sys import argv
+
+
+def calcify(bids_dir='bids'):
+    """This function recursively finds symbolic links in a given
+    directory and converts them to hard links.
+
+    Parameters
+    ----------
+    bids_dir: str
+
+    Returns
+    -------
+    None
+    """
+    if not os.path.isdir(bids_dir):
+        return
+
+    tempfile = os.path.join(os.getcwd(), 'tempfile')
+
+    for dirpath, dirnames, filenames in os.walk(bids_dir):
+        for file in [
+            os.path.join(
+                dirpath,
+                filename
+            ) for filename in filenames
+        ]:
+            # recursively convert symlinks to hardlinks
+            while os.path.islink(file):
+                os.rename(file, tempfile)
+                os.link(os.readlink(tempfile), file)
+                os.unlink(tempfile)
+
+
+if __name__ == '__main__':
+    if len(argv) == 1:
+        calcify()
+    else:
+        if all(
+            [help_flag not in argv for help_flag in {'-h', '--help'}]
+        ) and len(argv) == 2:
+            calcify(argv[1])
+        else:
+            print(__doc__)
