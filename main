@@ -15,4 +15,4 @@ bl2bids
 echo "running cpac"
 mkdir -p output tmp
 
-time singularity run -e -B $PWD/tmp:/tmp cpac-singularity-image.simg bids output participant
+time singularity run -e -B $PWD/tmp:/tmp cpac-singularity-image.simg bids output participant --save_working_dir
