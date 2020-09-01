@@ -1,7 +1,0 @@
-{
-	"t1": "testdata/anat/t1.nii.gz",
-	"dwi": "testdata/dwi/dwi.nii.gz",
-	"bvecs": "testdata/dwi/dwi.nii.gz",
-	"bvals": "testdata/dwi/dwi.bvals",
-	"bold": "testdata/func/bold.nii.gz"
-}
