@@ -7,7 +7,7 @@ set -x
 set -e
 
 echo "getting testing image"
-time curl -LOJ https://2630-4733263-gh.circle-artifacts.com/0/cpac-singularity-image.simg
+time singularity pull cpac-singularity-image.simg shub://FCP-INDI/C-PAC || singularity pull cpac-singularity-image.simg docker://fcpindi/c-pac:latest
 
 echo "restructuring data"
 bl2bids
